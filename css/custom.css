@@ -1,0 +1,25 @@
+.page-header
+{
+	margin-top: 0;
+}
+
+.page-header #mainHead {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.page-header #mainHead img
+{
+	margin: 0 auto;
+}
+
+.content-area
+{
+	padding-top: 50px;
+}
+
+#cont-1
+{
+	background-color: orange;
+}

@@ -1,0 +1,76 @@
+<!doctype html>
+<html ng-app>
+	<head>
+		<title>Idea!!!</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <!-- Bootstrap -->
+	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	    <link rel="stylesheet" type="text/css" href="css/bootswatch.css">
+	    <link rel="stylesheet" type="text/css" href="css/custom.css">
+	    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	    <!--[if lt IE 9]>
+	      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+	    <![endif]-->
+
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+	    <script type="text/javascript" src="js/app.js"></script>
+	</head>
+	<body ng-controller="ideaAppController">
+		<!--<div class="navbar navbar-default navbar-fixed-top">
+      <div class="container" >
+        <div class="navbar-header">
+          <a href="" class="navbar-brand">Idea {{newVariable}}</a>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+      </div>
+    </div>-->
+		<div class="page-header" >
+			<div class="container" >
+        		<div class="row">
+        			<div class="col-lg-12" id="mainHead">
+          				<img  src="img/logo.jpg" class="img-responsive" alt="Responsive image" width="30%">
+            			<h1>Idea!!</h1>
+            			<p class="lead"></p>
+          			</div>
+          			<div class="col-lg-6 col-lg-offset-3">
+          				<form class="form-examples">
+          					<input class="form-control" id="focusedInput" ng-model="newVariable" type="text" placeholder="Search an Idea!!">
+          				</form>
+          			</div>
+      			</div>
+        	</div>
+      	</div>
+      	<div class="content-area" id="cont-1">
+      		<div class="container">
+      			<div class="row">
+      				<div class="col-lg-8 col-lg-offset-2">
+      					<div class="list-group">
+			                <a href="#" class="list-group-item active">
+			                  <h4 class="list-group-item-heading">Idea 1</h4>
+			                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			                </a>
+			                <a href="#" class="list-group-item">
+			                  <h4 class="list-group-item-heading">Idea 2</h4>
+			                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			                </a>
+			                <a href="#" class="list-group-item">
+			                  <h4 class="list-group-item-heading">Idea 3</h4>
+			                  <p class="list-group-item-text">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+			                </a>
+		            	</div>
+      				</div>
+      			</div>
+      		</div>
+      	</div>
+	</body>
+</html>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+	<script src="js/bootswatch.js"></script>
